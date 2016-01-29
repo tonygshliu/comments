@@ -11,6 +11,10 @@
 10.用户管理－评论管理中心
 11.支持所有主流浏览器(IE7以上 Firefox chrome safari)
 12.支持PC端和手机端展现
+13.支持百万千万级用户评论
+14.php开发语言，运用redis beanstalkd mysql等
+
+
 
 实现案例 www.guancha.cn
 联系方式 QQ:458703853
