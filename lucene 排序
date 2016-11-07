@@ -75,4 +75,4 @@ search(Query query, Filter filter, int n, Sort sort, boolean doDocScores, boolea
  SortField sortField = new SortField("value", SortField.Type.INT);
     sortField.setMissingValue(Integer.MAX_VALUE);
 
-
+by https://my.oschina.net/MrMichael/blog/220773
