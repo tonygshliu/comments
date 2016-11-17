@@ -1,0 +1,13 @@
+I had the same problem you are trying to compile with CUDA8:
+
+try this: in graphcuts.cpp (where your error is thrown) change this:
+
+#include "precomp.hpp"
+
+#if !defined (HAVE_CUDA) || defined (CUDA_DISABLER)
+to this:
+
+#include "precomp.hpp"
+
+#if !defined (HAVE_CUDA) || defined (CUDA_DISABLER)  || (CUDART_VERSION >= 8000)
+because graphcuts is not supported directly with CUDA8 anymore.
