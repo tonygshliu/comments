@@ -22,3 +22,14 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/Volumes/dev/brew/code
 
 see https://prateekvjoshi.com/2015/10/09/installing-opencv-3-with-python-on-mac-os-x/
 -------------
+
+
+# Find ippicv 
+find /usr/local -name "libippicv.a"
+# For me it is /usr/local/Cellar/opencv3/3.1.0_3/share/OpenCV/3rdparty/lib/libippicv.a
+ 
+# Make a symlink to /usr/local/lib 
+ln -s /some/path/OpenCV/3rdparty/lib/libippicv.a /usr/local/lib/
+ 
+# I used
+ln -s /usr/local/Cellar/opencv3/3.1.0_3/share/OpenCV/3rdparty/lib/libippicv.a /usr/local/lib/
