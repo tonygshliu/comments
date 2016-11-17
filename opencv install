@@ -16,8 +16,7 @@ because graphcuts is not supported directly with CUDA8 anymore.
 
 
 ----------
-cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/Volumes/dev/brew/codes/opencv/build -D PYTHON2_LIBRARY=/Volumes/dev/anaconda/bin  -D PYTHON2_PACKAGES_PATH=/Users/liutony/.local/lib/python2.7/site-packages -D PYTHON2_INCLUDE_DIR=/System/Library/Frameworks/Python.framework/Headers -D INSTALL_C_EXAMPLES=OFF -D INSTALL_PYTHON_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=/Volumes/dev/brew/codes/opencv/modules/opencv_contrib/modules -D BUILD_opencv_python2=ON ../
-
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/Volumes/dev/brew/codes/opencv/build -D PYTHON2_LIBRARY=/Volumes/dev/brew/Cellar/python/2.7.12_2/Frameworks/Python.framework/Versions/2.7/bin  -D PYTHON2_PACKAGES_PATH=/Volumes/dev/brew/lib/python2.7/site-packages -D PYTHON2_INCLUDE_DIR=/Volumes/dev/brew/Cellar/python/2.7.12_2/Frameworks/Python.framework/Headers -D INSTALL_C_EXAMPLES=OFF -D INSTALL_PYTHON_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=/Volumes/dev/brew/codes/opencv/modules/opencv_contrib/modules -D BUILD_opencv_python2=ON ../
 
 
 see https://prateekvjoshi.com/2015/10/09/installing-opencv-3-with-python-on-mac-os-x/
