@@ -32,3 +32,5 @@ ln -s /some/path/OpenCV/3rdparty/lib/libippicv.a /usr/local/lib/
  
 # I used
 ln -s /usr/local/Cellar/opencv3/3.1.0_3/share/OpenCV/3rdparty/lib/libippicv.a /usr/local/lib/
+-------
+brew install hdf5
