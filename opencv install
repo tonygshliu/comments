@@ -21,6 +21,9 @@ install Xcode 7.3.1 & Xcode-command-line 7.3.1 & CUDA8.0.46
 
 cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/Volumes/doc/opencv/build -D PYTHON2_LIBRARY=/usr/local/Cellar/python/2.7.10_2/Frameworks/Python.framework/Versions/2.7/bin -D PYTHON2_PACKAGES_PATH=/Library/Python/2.7/site-packages -D PYTHON2_INCLUDE_DIR=/usr/local/Cellar/python/2.7.10_2/Frameworks/Python.framework/Headers -D INSTALL_C_EXAMPLES=OFF -D INSTALL_PYTHON_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=/Volumes/doc/opencv-contrib/modules -D BUILD_opencv_python2=ON -D CMAKE_C_COMPILER=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D CMAKE_CXX_COMPILER=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -D WITH_CUDA=ON ../
 
+
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/Volumes/dev/brew/opencv/build -D PYTHON3_LIBRARY=/Volumes/dev/brew/Cellar/python3/3.5.2_3/Frameworks/Python.framework/Versions/3.5/lib/libpython3.5m.dylib  -D PYTHON3_PACKAGES_PATH=/Volumes/dev/brew/lib/python3.5/site-packages -D PYTHON3_INCLUDE_DIR=//Volumes/dev/brew/Cellar/python3/3.5.2_3/Frameworks/Python.framework/Versions/3.5/include/python3.5m -D INSTALL_C_EXAMPLES=OFF -D INSTALL_PYTHON_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=/Volumes/dev/brew/opencv/modules/opencv_contrib/modules -D BUILD_opencv_python3=ON -D BUILD_opencv_python2=OFF  -D WITH_CUDA=ON -D  WITH_TBB=ON -D WITH_V4L=ON -D BUILD_TIFF=ON -D WITH_JPEG=ON -D WITH_PNG=ON -D WITH_WEBP=ON -D WITH_GDAL=ON -D WITH_JASPER=ON --clean-first  ../
+
 see https://prateekvjoshi.com/2015/10/09/installing-opencv-3-with-python-on-mac-os-x/
 -------------
 
