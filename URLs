@@ -6,3 +6,5 @@ network optimize
 dig xxx.xxx.xxx +trace @ dns
 
 http://gradlewhy.ghost.io/a-service-and-a-handler-for-long-tasks/
+
+http://idea.lanyus.com
