@@ -15,6 +15,5 @@
 14.php开发语言，运用redis beanstalkd mysql等
 
 
-
-实现案例 www.guancha.cn
+ www.guancha.cn
 
